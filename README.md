@@ -14,6 +14,8 @@ Resor: [SL](https://github.com/teppos/MMM-SL)
 
 You can find my and others modules [Here](https://github.com/MagicMirrorOrg/MagicMirror/wiki/3rd-party-modules)
 
+you will need to install the modules by yourself.
+
 
 Check the config.js and add api tokens and webcal address and modify your config for you. rembember to back up the config.
 
