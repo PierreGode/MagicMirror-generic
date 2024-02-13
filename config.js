@@ -39,33 +39,7 @@ var config = {
 //############################### Modules Below ###################################//
 
 	modules: [
-		
-//############################ ICA ###########################################//
 
-		
-/*		
-{
-  module: "MMM-ICA",
-  position: "bottom_right",
-  header: "ICA",
-  config: {
-    username: "",
-    password: "",
-    apiUrl: "https://handla.api.ica.se/api/",
-    storeApiUrl: "https://handla.api.ica.se/api/",
-    updateInterval: 900000, // Refresh every 15 minutes.
-    retryDelay: 5 * 60 * 1000, // Retry every 5 minutes if an error occurs.
-    settings: {
-      Saldo: true,
-      AccountName: false,
-      FavoriteStores: false,
-      offers: false, // Show offers for the specified store ID
-      offersStoreId: "15215", // Default store ID for which offers will be displayed    
-      DisplayStoreID: false
-    },
-  }
-},
-*/
 //#######################################################################//		
 
 {
@@ -83,22 +57,6 @@ var config = {
   }
 },
 		
-	
-//############################## PhoneDetect #########################################//
-
-{
-  module: "MMM-PhoneDetect",
-  position: "bottom_right", // Change the position as needed
-  config: {
-    phones: [""], // List of phone MAC addresses to detect ["42:10:e5:01:00:e0", "YY:YY:YY:YY:YY:YY"],
-    turnOnCommand: "vcgencmd display_power 1 2", // Command to turn on the mirror
-    turnOffCommand: "vcgencmd display_power 0 2", // Command to turn off the mirror
-    startignoreHour: 23, // Begin ignore period at 23:00, this will prevent the Command to turn off/on the mirror specific hours
-    endignoreHour: 6,   // End ignore period at 6:00
-    checkInterval: 10000, // Check for phone presence every 5 seconds
-    nonResponsiveDuration: 3600000, // Duration in milliseconds (3600000 =1 hour by default)
-  }
-},		
 
 //################# Väder #################### 
 {
@@ -157,7 +115,6 @@ var config = {
 },		
 
 //################# SL Resor #################### 		
-/*
 	{
   module: "MMM-SL",
   header: "Avresor Årstadal",
@@ -182,7 +139,6 @@ var config = {
     ],
   }
 },
- */
 //################# Wifi Password #################### 
 /*		
 
