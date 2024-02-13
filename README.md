@@ -10,10 +10,12 @@ modules used in this config are:
 
 My [Next-Episode](https://github.com/PierreGode/MMM-next-episode) for tv shows.
 
-[SL](https://github.com/teppos/MMM-SL)
+Resor: [SL](https://github.com/teppos/MMM-SL)
+
+You can find my and others modules [Here](https://github.com/MagicMirrorOrg/MagicMirror/wiki/3rd-party-modules)
 
 
-Check the config.js and add api tokens and webcal address.
+Check the config.js and add api tokens and webcal address and modify your config for you. rembember to back up the config.
 
 ![image](https://github.com/PierreGode/MagicMirror-generic/assets/8579922/9d4e54f5-922f-4fec-8ac2-be6fedccafb0)
 
