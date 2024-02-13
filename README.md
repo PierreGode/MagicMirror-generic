@@ -1,5 +1,5 @@
 # MagicMirror-generic
-My generic magic mirror install guide an config
+My generic magic mirror install guide and config
 
 [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) project can be fould were you will find the [Installation guide](https://docs.magicmirror.builders/getting-started/installation.html#manual-installation) were i would recommend the manual installation.
 
